@@ -1,0 +1,1098 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Comforter+Brush&family=Courgette&family=Dancing+Script:wght@600&family=EB+Garamond:ital,wght@0,400;1,400;1,500&family=Holtwood+One+SC&family=IM+Fell+Great+Primer:ital@1&family=Oleo+Script&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+.homeside {
+    color: #800000;
+ margin-bottom: 0;
+    background-color: #ECE9E4;
+    
+
+
+}
+
+
+
+.headerhome {
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+   border-bottom: 2px solid white;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 3px;
+   height: 20vh;
+   
+      
+}
+
+.milad-rashedi {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 3px;
+
+}
+
+.underheaderhome {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.navbarhome 
+{
+
+height: 15vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+border-bottom: 2px solid white;
+margin-right: 5%;
+margin-left: 5%;
+
+}
+
+
+
+
+.welcomehome {
+display: flex;
+    font-family: 'Roboto Mono', monospace;
+    flex-direction: column;
+}
+
+.profilepicture {
+border-radius: 80%;
+margin-top: 16%;
+    width: 60%;
+ align-self: center;
+ box-shadow: 16px -14px 67px 19px rgba(167,148,122,1);
+ border: 2px rgb(167,148,122)solid;
+
+}
+
+
+
+.h3home {
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 10%;
+    
+}
+
+
+
+.firstintroduction {
+
+    padding: 5%;
+ letter-spacing: 2px;
+ line-height: 2rem;
+ margin-top: 0;
+ 
+}
+
+
+
+.firstintroduction {
+text-align: center;
+font-family: 'EB Garamond', serif;
+font-size: 1.4rem;
+letter-spacing: 2px;
+line-height: 3rem;
+}
+
+
+a {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+color: black
+}
+
+.Homeone {
+    background-color: red;
+    border-radius: 40%;
+}
+
+.Cvsidaone {
+    background-color: red;
+    border-radius: 40%;
+}
+
+
+.portfolieone {
+    background-color: red;
+    border-radius: 40%;
+}
+
+.kontaktone {
+    background-color: red;
+    border-radius: 40%;
+}
+
+
+a :hover { 
+    color: #800000;
+    
+    
+}
+
+.home, .cv, .pf, .bilder, .me {
+
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+
+.homeside {
+    margin-bottom: 30%;
+}
+
+}
+
+
+@media (min-width: 600px) {
+
+    .profilepicture { 
+width: 40%;
+    }
+    a {
+        width: 5%;
+    }
+}
+
+
+@media (min-width: 900px)
+{
+.profilepicture {
+    width: 30%;
+    margin-top: 30%;
+}
+
+h3 { 
+    margin-top: 10%;
+}
+
+
+a { 
+    width: 3%;
+}
+
+}
+
+
+/* NOW WE GO OVER TO CV SIDE  */
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #ECE9E4;
+}
+
+.grid-containercv { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    grid-template-rows: repeat(27, minmax(50px, 50px));
+    margin: 5%;
+}
+
+
+.h1cv { 
+    grid-area: 1 / 1 / span 2 / span 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'EB Garamond', serif;
+    font-style: oblique;
+    color: #800000;
+    border-bottom: 2px solid white;
+}
+
+.navbarcv {
+    grid-area: 3 / 1 / span 3 / span 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:white 2px solid;
+    
+}
+
+.cvjobb{ 
+    grid-area: 6/ 1 / span 19/ span 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    font-family: 'EB Garamond', serif;
+    color: #800000;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 6vh;
+ border-bottom: 2px solid #800000;
+ list-style-position: inside;
+ margin-bottom: 5vh;
+}
+
+
+
+.h2cv { 
+    margin-bottom: 7%;
+    font-style: oblique;
+}
+
+
+
+.cvutbildning { 
+    grid-area: 25 / 1 / span 10 / span 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    font-family: 'EB Garamond', serif;
+    color: #800000;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 6vh;
+ border-bottom: 2px solid #800000;
+ list-style-position: inside;
+padding-bottom: 7vh;
+    
+
+}
+
+
+
+.h3cv { 
+    font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      font-family: 'EB Garamond', serif;
+      font-style: oblique;
+      color: #800000;
+      margin-bottom: 7%;
+
+}
+
+
+.utbildningtext {
+height: 100%;
+text-align: center;
+}
+
+
+
+a  {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a :hover { 
+    color: #800000;
+    }
+
+
+    @media (min-width: 520px) {
+
+    .cvjobb { 
+   grid-area: 6 / 1 / span 16/ span 10;
+    } 
+
+    .cvutbildning { 
+        grid-area: 22/ 1 / span 10 / span 10;
+}
+    }
+
+    @media (min-width: 800px) {
+
+    .cvjobb { 
+        grid-area: 6 / 6 / span 12/ span 5;
+        border-left: 2px solid #800000;
+        border-bottom: none;
+        padding-left: 10%;
+         } 
+
+         .cvutbildning { 
+            grid-area: 6 / 2 / span 10/ span 3;
+            white-space: pre-line;
+            margin-top: 10%;
+            border-bottom: none;
+            line-height: 10vh;
+    }
+
+  
+
+}
+
+
+/* NOW WE GO OVER TO PORTFOLIO  */
+
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+       background-color: #ECE9E4;
+}
+
+.portfolio-container { 
+    display: grid;
+    grid-template-columns: repeat(10, minmax(30px, 1fr));
+    grid-template-rows: repeat(51, minmax(50px, 1fr));
+    margin: 5%;
+    row-gap: 2rem;
+}
+
+.portfolioh1 { 
+    grid-area: 1 / 1 / span 2 / span 10;
+    font-size: 3rem;
+    letter-spacing: 1.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IM Fell Great Primer', serif;
+    font-style: oblique;
+    color: #800000;
+    border-bottom: 2px solid white;
+}
+
+.portfolionav {
+grid-area: 3 / 1 / span 2 / span 10;
+display: flex;
+align-items: center;
+justify-content: space-around;
+border-bottom:white 2px solid;
+}
+
+/* Welcometext  */
+
+.welcome  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-area: 5 / 1 / span 4 / span 10;
+    font-family: 'IM Fell Great Primer', serif;
+    color: #800000;
+    border-bottom: 2px solid white;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 1.5px;
+    padding-left: 10%;
+    padding-right: 10%;
+   padding-bottom: 10%;
+   
+}
+
+
+/* Storlek on the divs */
+
+.work1 {
+ 
+   grid-area: 9 / 1 / span 6 / span 10;
+   display: flex;
+  justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   font-family: 'EB Garamond', serif;
+   color: #800000;
+    line-height: 2rem;
+    border-bottom: 2px solid white;
+    
+}
+
+.work2 { 
+    grid-area: 15 / 1 / span 5 / span 10 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    padding-top: 7%;
+    font-size: 1.2rem;
+    color: #800000;
+    border-bottom: 2px solid white;
+
+}
+
+.work3 { 
+    grid-area: 20 / 1 / span 15/ span 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;   
+    font-size: 1.2rem;
+    color: #800000;
+    border-bottom: #800000 2px solid;
+
+}
+
+/* Storlek  and position on the pictures */
+
+.adidas {
+    width: 100%;
+    height: 40%;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    border: 2px solid white;  
+}
+
+.grid1 { 
+    width: 100%;
+    margin-bottom: 5%;
+
+    
+}
+
+.grid2 { 
+    width: 100%;
+    margin-bottom: 10%;
+  
+}
+
+
+.responsive1 {
+    width: 100%;
+    border-bottom: 2px solid white;
+
+}
+
+.responsive2 {
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.responsive3 {
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+/* Adidas section text */
+
+.adidash2 {
+
+    font-family: 'Holtwood One SC', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    background: white;
+    color: #f4d110;
+    letter-spacing: 1.1px;
+    border: 2px solid #f4d110;
+    height: 10vh;
+    padding-top: 1%;
+   
+    
+
+}
+
+#btnone { 
+    width: 10vh;
+    height: 5vh;
+    color: #800000;
+    background-color: beige;
+    align-self: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+   
+}
+
+
+#description1 { 
+
+    margin-top: 7%;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+    display: none;
+
+}
+
+/* Responsiv layout text */
+
+.responsiveh3 { 
+    background: white;
+    border: 2px solid white;
+    font-size: 2rem;
+    margin-bottom: 15%;
+    height: 1.5%;
+}
+
+.linktexttwo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.linktexttwo:hover {
+    color: #800000; 
+    text-decoration: dotted;
+    cursor: pointer;
+    
+}
+
+#btntwo {
+    width: 10vh;
+    height: 5vh;
+    color: #800000;
+    background-color: beige;
+    margin-bottom: 5%;
+
+}
+
+
+#descriptiontwo {
+    width: 90%;
+    margin: 5%;
+    display: none;
+
+ 
+}
+
+
+
+/* Third job texten  */
+
+
+#btnthree {
+    margin-top: 10%;
+    width: 10vh;
+    height: 5vh;
+    color: #800000;
+    background-color: beige;
+
+}
+
+
+
+.responsivenavh4 { 
+    font-size: 1.6rem;
+    font-family: 'Holtwood One SC', serif;
+    background: darkslateblue;
+    width: 80%;
+    border: 2px white dotted;
+    color: white;
+    letter-spacing: 1.3px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+#description3 { 
+    display: none;
+    margin-top: 7%;
+    margin-bottom: 20%;
+    font-family: 'EB Garamond', serif;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    padding-top: 7%;
+    font-size: 1.2rem;
+    color: #800000;
+}
+
+/* links hover effect  */
+
+
+
+a  {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a :hover { 
+    color: #800000;
+    }
+
+
+
+
+@media (min-width: 750px) {
+
+.responsivenavh4 { 
+    margin-top: 5%;
+    
+}
+
+#description3 { 
+ padding-top: 0;
+ margin-bottom: 10%;
+}
+
+.responsive1 {
+    width: 100%;
+    border-bottom: 2px solid white;
+
+}
+
+.responsive2 {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.responsive3 {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.welcome  {
+    padding-left: 5%;
+    padding-right: 5%;
+   padding-bottom: 5%;
+   
+   
+}
+
+
+}
+
+
+@media (min-width: 900px) { 
+
+    .portfolio-container { 
+        display: grid;
+        grid-template-columns: repeat(10, minmax(30px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+
+    }
+    .portfolioh1 { 
+        grid-area: 1 / 1 / span 1 / span 10;
+      
+    }
+    .portfolionav {
+        grid-area: 2 / 1 / span 1 / span 10;
+        padding-bottom: 4%;
+       
+        }
+
+        .welcome  {
+
+            grid-area: 3 / 1 / span 1 / span 10;
+ 
+        }
+
+        /* adidas */
+
+        .work1 {
+ 
+          grid-area: 4 / 2 / span 3 / span 8;
+        
+    
+          
+        
+         }
+
+         .description1 { 
+            margin-bottom: 5%;
+         }
+
+         .adidas {
+            height: 55%;
+            width: 100%;
+            margin-bottom: 0;
+   
+        }
+
+        /* work 2  */
+
+        .work2 { 
+            grid-area: 7 / 2 / span 4 / span 8;
+           
+        }
+
+        .description2 {
+
+            margin-bottom: 7%;
+        }
+        .grid1 { 
+            width: 100%;
+            margin-bottom: 10%;
+        
+            
+        }
+        
+        .grid2 { 
+            width: 100%;
+            margin-bottom: 10%;
+          
+        }
+
+
+
+        .work3 { 
+            grid-area: 12 / 2 / span 5 / span 8;
+      
+        }
+
+
+
+
+}
+
+
+/* NOW WE GO OVER TO CONTACT SIDE  */
+
+
+.containermore {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(50px, 1fr));
+    grid-template-rows: repeat(10, minmax(50px, 1fr));
+    row-gap: 3%;
+   
+}
+
+
+.moreh1 { 
+grid-area: 1 / 1 / span 2 / span 10 ;
+display: grid;
+align-items: center;
+justify-content: center;
+font-family: 'IM Fell Great Primer', serif;
+    font-style: oblique;
+    color: #800000;
+    border-bottom: 2px solid white;
+    font-size: 3rem;
+}
+
+.morenav {
+    grid-area: 3 / 1 / span 2 / span 10;
+display: flex;
+align-items: center;
+justify-content: space-around;
+border-bottom:white 2px solid;
+
+}
+
+
+.welcomemore {
+    grid-area:  5 / 1 / span 2 / span 10 ;
+    font-family: 'IM Fell Great Primer', serif;
+    color: #800000;
+    border-bottom: 2px solid white;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 1.5px;
+    padding-left: 10%;
+    padding-right: 10%;
+   padding-bottom: 10%;
+ 
+   text-align: center;
+
+}
+
+/* GRID AREA LOGOS  */
+
+#twitter { 
+    grid-area: 7 / 1 / span 2 / span 3;
+    display: flex;
+ position: relative;
+align-items: center;
+ justify-content: center;
+ 
+
+}
+
+
+#instagram {
+    grid-area: 7 / 5 / span 2 / span 3 ;
+    position: relative;
+    justify-content: center;
+}
+
+#tele { 
+    grid-area: 9 / 1 / span 2 / span 3 ;
+    position: relative;
+}
+
+#gmail {
+    grid-area: 9 / 5 / span 2 / span 3 ;
+    position: relative;
+
+}
+
+
+
+/* STORLEK ON THE LOGOS  */
+
+
+.imaget{ 
+    width: 80%;
+  margin-left: 20%;
+}
+
+.imagei {
+    width: 80%;
+    margin-right: 20%;
+}
+
+.imageg{
+    width: 80%;
+    margin-right: 20%;
+}
+
+
+.imagett {
+    width: 80%;
+    margin-left: 20%;
+}
+
+
+/* TRANSITION UPPGIFTER  */
+
+#twitter .imaget,
+#twitter .textt {transition: opacity 0.5s ease-in-out;}
+#twitter .textt {position:absolute; top: 50px;; left:0; opacity:0;}
+
+#twitter:hover .imaget {opacity:0;}
+#twitter:hover .textt {opacity:1;}
+
+
+#instagram .imagei,
+#instagram .texti {transition: opacity 0.5s ease-in-out;}
+#instagram .texti {position:absolute; top: 50px;; left:0; opacity:0;}
+
+#instagram:hover .imagei {opacity:0;}
+#instagram:hover .texti {opacity:1;}
+
+
+#tele .imagett,
+#tele .textp {transition: opacity 0.5s ease-in-out;}
+#tele .textp {position:absolute; top: 50px;; left:0; opacity:0;}
+
+#tele:hover .imagett {opacity:0;}
+#tele:hover .textp {opacity:1;}
+
+
+#gmail.imageg,
+#gmail .textg {transition: opacity 0.5s ease-in-out;}
+#gmail .textg {position:absolute; top: 50px;; left:0; opacity:0;}
+
+#gmail:hover .imageg {opacity:0;}
+#gmail:hover .textg {opacity:1;}
+
+
+
+
+
+
+/* POSTITION and color ON THE TEXT  */
+
+.textt {
+font-size: 1.5rem;
+text-align: right;
+width: 100%;
+color: skyblue;
+border-radius: 20%;
+font-family: 'EB Garamond', serif;
+font-weight: bold;
+letter-spacing: 1px;
+position: absolute;
+
+
+
+}
+
+.texti {
+    font-size: 1.5rem;
+text-align: left;
+width: 100%;
+color: red;
+border-radius: 20%;
+font-family: 'EB Garamond', serif;
+font-weight: bold;
+letter-spacing: 1px;
+position: absolute;
+}
+
+.textp {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    color: black;
+    border-radius: 20%;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    }
+
+    .textg {
+        font-size: 1.5rem;
+    text-align: left;
+    width: 100%;
+    color: red;
+    border-radius: 20%;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    }
+
+/* links hover effect  */
+
+
+
+a  {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a :hover { 
+    color: #800000;
+    }
+
+
+
+
+    @media (min-width: 600px) {
+
+.textt {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.texti { 
+    font-size: 2.4rem;
+    text-align: left;
+    margin-top: 10%;
+    margin-right: 50%;
+    
+}
+
+.textp {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 5%;
+
+}
+
+.textg { 
+    font-size: 2.4rem;
+    text-align: left;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+a { 
+    width: 5%;
+}
+
+.welcomemore {
+    font-size: 1.5rem;
+    margin-top: 7%;
+}
+
+
+    }
+
+
+
+    @media (min-width: 900px) {
+
+        .textt {
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+        
+        .texti { 
+            font-size: 3rem;
+            text-align: left;
+            margin-top: 10%;
+            margin-right: 50%;
+            
+        }
+        
+        .textp {
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 15%;
+            margin-left: 5%;
+        
+        }
+        
+        .textg { 
+            font-size: 3rem;
+            text-align: left;
+            margin-top: 10%;
+            margin-right: 5%;
+        }
+
+        .welcomemore {
+            grid-area: 3 / 1 / span 2 / span 10;
+            font-size: 2rem;
+            margin-top: 2%;
+        padding: 0;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 10%;
+        text-align: center;
+        letter-spacing: 4px;
+        line-height: 7rem;
+        }
+
+        .morenav {
+            grid-area: 2 / 1 / span 1 / span 10;
+            height: 30vh;
+            margin-left: 10%;
+            margin-right: 10%;
+
+
+        }
+
+        .moreh1 {
+          height: 30vh;
+          margin-left: 10%;
+          margin-right: 10%;
+        }
+
+
+        #twitter { 
+            grid-area: 5 / 1 / span 2 / span 3;
+            display: flex;
+         position: relative;
+        align-items: center;
+         justify-content: center;
+         
+        
+        }
+        
+        
+        #instagram {
+            grid-area: 5 / 5 / span 2 / span 3 ;
+            position: relative;
+            justify-content: center;
+        }
+        
+        #tele { 
+            grid-area: 7 / 1 / span 2 / span 3 ;
+            position: relative;
+        }
+        
+        #gmail {
+            grid-area: 7 / 5 / span 2 / span 3 ;
+            position: relative;
+        
+        }
+
+
+    }

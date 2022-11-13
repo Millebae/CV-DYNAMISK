@@ -1,0 +1,26 @@
+
+
+{
+  "employment": [
+      {
+          "time": "2020-2021",
+          "jobTitle": "Pop up works - Projektledare",
+          "location": "Stockholm",
+          "text": "I min roll som projektledare hade jag ett helhetsansvar för olika reklamprojekt, samordnade arbetet i projektgruppen och såg till att kommunikationen fungerade mellan de olika personerna i arbetsgruppen och med kunden"
+      },
+      {
+          "time": "2019-2020",
+          "jobTitle": "Cervera - Marknadsassistent ",
+          "location": "Stockholm",
+          "text": "Arbetade med sammanställning av marknads och sortimentsanalyser, planering av säljcykler, framtagning av extern marknadsdata samt insamling av uppgifter från kunder och deras behov på marknaden. I arbetet ingick även administrativa uppgifter av kvalificerad karaktär  "
+      }
+
+  ],
+  "education": [
+      " // 2022 - UX/UI Designer med Frontendskompetens - Chas Academy //",
+      " // 2017 - 2019 Skådespelarprogrammet - Calle Flygare Teaterskola // ",
+      " // 2013 - 2016 Medie- och kommunikationsvetenskap - Uppsala universitet //"
+
+  ]
+
+}
