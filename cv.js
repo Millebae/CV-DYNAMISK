@@ -30,16 +30,7 @@ const populateCv = (cvObj) => {
       
     });
     document.getElementById('educationList').innerHTML = educationHtml;
-    let internshipsHtml = ``;
-    cvObj.internships.forEach(element => {
-        let listItem = `
-        <p>
-                <span class=“job-title”>${element.companyName}</span>
-                <span class=“bold-text”>${element.text}</span>
-            </p>`
-     
-        
-    });
+    
    
 }
 const cvObj = await getInfo();
